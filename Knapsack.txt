@@ -25,6 +25,10 @@ int main(){
     }
     int* T=(int *)malloc((W+1)*sizeof(int));
     for(i=1;i<N+1;i++){
+	
+	
+	
+	
         for(j=0;j<W+1;j++){
             if(w[i-1]>j){
                 T[j]=M[j];
